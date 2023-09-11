@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED40DF0F-5719-936D-C2AB-6E40AC3F1139" name="FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:17:08 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D3EC77A1-AF34-EA5F-E3CC-B04B06CC7DCB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:17:55 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="4D3B7CD0-0AB9-D03B-8F32-C62AFD90C9F2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:19 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="00219319-AB3F-FE10-726F-105AD065DC6A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:42 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="5832DD1B-71FA-3224-3C39-D9FB43EB3B82">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:19:01 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATACONTRATACAO" id="2B3031AA-76C8-3812-AA15-3D36BA085D6F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:19:31 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17A7DF0E-4570-D7E9-2170-D99C8169E85D" name="FUNCIONARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:17 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3EC77A1-AF34-EA5F-E3CC-B04B06CC7DCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

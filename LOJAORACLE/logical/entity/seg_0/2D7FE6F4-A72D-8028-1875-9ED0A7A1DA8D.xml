@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D7FE6F4-A72D-8028-1875-9ED0A7A1DA8D" name="COMPRA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:25:58 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="DB40D1D2-8390-79A6-BFF9-EA287E93BE0F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:26:05 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_HORA" id="33A5E5CC-1899-4CEA-6C13-052EC80BE305">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:26:37 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL" id="80A3CB66-EC6C-C043-ADCA-B858A429A58A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:27:03 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="667F5633-CBEF-D160-1393-27FDCF142201" name="COMPRA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:26:28 UTC</createdTime>
+<ownerDesignName>LOJAORACLE</ownerDesignName>
+<engineerTo>
+<item key="7E56D865-4407-FE51-0875-8FC66C16279F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB40D1D2-8390-79A6-BFF9-EA287E93BE0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
